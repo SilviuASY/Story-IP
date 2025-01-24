@@ -131,3 +131,22 @@ sudo apt install -y nodejs npm
     ```
 
 2. `npm run dispute-ip`
+
+
+## 🎵🎧 "NOW let's Register Music on Story"
+
+1. Got to [SUNO](https://suno.com/) > Signup
+
+2. GO to Create Tab > Enter Song Prompt or Upload a song that you wanna register then Create .
+
+3. Click on copy song link and you got a URL Example - `https://suno.com/song/dcd3076f-3aa5-400b-ba5d-87d30f27c311` Copy the the SONG_ID from the URL And save (Song id like this : `dcd3076f-3aa5-400b-ba5d-87d30f27c311`)
+
+4. Now go back to terminal and run this command by replacing Replace_with_Your_Song_ID with you actual Song ID that you got at step 4.
+```
+sed -i 's/SONG_ID/Replace_with_Your_Song_ID/g' scripts/registerMusic.ts
+```
+5. Finally Run this command to register your Song on IP :
+```
+npm run register-music
+```
+Done ! YOU can see a link open it in the browser and enjoy your music on IP 🎶
