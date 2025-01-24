@@ -1,3 +1,24 @@
+# CLONE REPO
+0. First of all Open any Ubuntu Terminal:
+
+1. Clone Repo:
+```
+git clone https://github.com/SilviuASY/Story-IP.git
+```
+Install Node.js if not :
+
+```
+sudo apt update
+sudo apt install -y nodejs npm
+```
+
+Install Dependencies
+```
+npm install
+```
+
+
+
 # Story Protocol TypeScript SDK Examples
 
 ### Get Started
