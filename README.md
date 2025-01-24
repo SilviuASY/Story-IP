@@ -12,11 +12,6 @@ sudo apt update
 sudo apt install -y nodejs npm
 ```
 
-Install Dependencies
-```
-npm install
-```
-
 
 
 # Story Protocol TypeScript SDK Examples
