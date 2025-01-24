@@ -3,7 +3,7 @@
 
 1. Clone Repo:
 ```
-git clone https://github.com/SilviuASY/Story-IP.git
+git clone https://github.com/SilviuASY/Story-IP.git && cd Story-IP
 ```
 Install Node.js if not :
 
