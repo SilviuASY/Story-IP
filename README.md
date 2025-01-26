@@ -43,7 +43,8 @@ sudo apt install -y nodejs npm
     ```
 
 3. RPC URL : 
-```RPC_PROVIDER_URL=https://rpc.odyssey.storyrpc.io
+```
+RPC_PROVIDER_URL=https://rpc.odyssey.storyrpc.io
 ```
 
 3. `npm run mint-and-register`
