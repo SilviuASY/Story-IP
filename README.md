@@ -42,6 +42,10 @@ sudo apt install -y nodejs npm
     PINATA_JWT=YOUR_PINATA_JWT
     ```
 
+3. RPC URL : 
+```RPC_PROVIDER_URL=https://rpc.odyssey.storyrpc.io
+```
+
 3. `npm run mint-and-register`
 
 ## 📄 Run "Simple Mint and Register SPG" Example
